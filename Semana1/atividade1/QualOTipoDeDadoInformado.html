@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let dado = prompt("Informe um dado:");
+        if (!isNaN(dado) && dado.trim() !== "") {
+            alert("O tipo do dado é: Number");
+        } else if (dado.toLowerCase() === "true" || dado.toLowerCase() === "false") {
+            alert("O tipo do dado é: Boolean");
+        } else if (dado.trim() === "") {
+            alert("Você informou um dado vazio.");
+        } else {
+            alert("O tipo do dado é: String");
+        }
+    </script>
+    <a href="index.html">Voltar</a>
+</body>
+</html>
