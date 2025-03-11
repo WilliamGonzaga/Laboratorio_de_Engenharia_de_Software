@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-left: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="date"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+    margin-left: 5px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-enviar {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-redefinir {
+    background-color: #ccc;
+}
+
+.hidden {
+    display: none;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-left: 5px;
+}
